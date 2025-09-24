@@ -5,7 +5,7 @@ export const EventText = () => {
         Cette année,
       </p>
       <p className="text-white text-lg font-bold box-border caret-transparent leading-7 md:text-xl">
-        O&#39;Tacos et Coca-Cola organisent
+        O&#39;Tacos et Coca-Cola t’invitent à 
       </p>
     </div>
   );
