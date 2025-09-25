@@ -28,7 +28,7 @@ export const ParticipationSection = () => {
               d&#39;opposition, le cas échéant de portabilité et de définir des
               directives relatives à vos données. Pour en savoir plus, vous pouvez vous rendre sur les{" "}
               <a
-                href="https://jbfood-my.sharepoint.com/personal/alexandra_lauret_lacorp_re/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Falexandra%5Flauret%5Flacorp%5Fre%2FDocuments%2FPi%C3%A8ces%20jointes%2FOtacos%5FFTD%5FDigit%2Epsb&parent=%2Fpersonal%2Falexandra%5Flauret%5Flacorp%5Fre%2FDocuments%2FPi%C3%A8ces%20jointes&ga=1"
+                href="/reglement"
                 className="font-semibold box-border caret-transparent underline"
               >
                 conditions du jeu concours
