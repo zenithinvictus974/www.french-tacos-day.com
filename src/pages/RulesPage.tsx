@@ -74,10 +74,10 @@ export const RulesPage = () => {
               <li>ainsi que des membres de leur famille.</li>
             </ul>
             <p className="text-gray-700 leading-relaxed mb-4">Pour participer, il faut :</p>
-            <ul className="list-disc list-inside text-gray-700 mb-4 space-y-2">
+            <ol className="list-decimal list-inside text-gray-700 mb-4 space-y-2">
               <li>Acheter un O'Tacos M + un Coca-Cola (ou toute boisson Brasserie de Bourbon),</li>
               <li>Remplir un bulletin de participation en scannant le QR Code disponible en restaurant, et indiquer ses coordonnées (nom, prénom, adresse postale, adresse email, date de naissance).</li>
-            </ul>
+            </ol>
             <div className="bg-orange-100 p-4 rounded-lg">
               <p className="text-orange-800 font-semibold">➤ La participation est limitée à une fois par personne et par jour.</p>
               <p className="text-orange-800 font-semibold">➤ Un seul lot sera attribué par foyer (même nom, même adresse).</p>
@@ -90,18 +90,21 @@ export const RulesPage = () => {
             <p className="text-gray-700 leading-relaxed mb-4">
               Un tirage au sort en point de vente désignera le(s) gagnant(s) des lots suivants :
             </p>
-            <div className="bg-gray-50 p-6 rounded-lg">
+            <div className="bg-gray-50 p-6 rounded-lg mb-4">
               <ul className="space-y-2 text-gray-700">
                 <li><strong>1 iPhone 17</strong> – valeur 1 498 €</li>
-                <li><strong>3 Pass VIP pour le concert KARTEL URBAN LIVE</strong> – valeur unitaire 105 €</li>
-                <li><strong>20 places « normales » pour le concert KARTEL URBAN LIVE</strong> – valeur unitaire 27€</li>
+                <li><strong>3 Pass CARRÉ OR pour le concert KARTEL URBAN LIVE le 11 octobre 2025</strong> – valeur unitaire 68 € + accès au backstage pour rencontrer les artistes</li>
+                <li><strong>20 places « normales » pour le concert KARTEL URBAN LIVE le 11 octobre 2025</strong> – valeur unitaire 27€</li>
                 <li><strong>20 Runbox</strong> – valeur unitaire 29€</li>
-                <li><strong>20 places de cinéma</strong> – valeur unitaire 10,91€</li>
+                <li><strong>20 places de cinéma</strong> – valeur unitaire 10,91€ (date de validité au 24/02/2026)</li>
                 <li><strong>1 air pod pro 3</strong> – valeur 249 €</li>
                 <li><strong>1 oakley meta</strong> – valeur 519 €</li>
                 <li><strong>1 Trottinette</strong> – valeur 399,99 €</li>
               </ul>
             </div>
+            <p className="text-gray-700 leading-relaxed">
+              Les lots devront être récupérés directement dans le restaurant où le participant a pris part au jeu, dans un délai maximum de 3 mois à compter de la date de notification des résultats. Passé ce délai, les lots non réclamés seront considérés comme perdus.
+            </p>
           </section>
 
           {/* Article 5 */}
@@ -111,12 +114,14 @@ export const RulesPage = () => {
               <p className="text-green-800 font-semibold text-center">Tirage au sort prévu le 8 octobre 2025</p>
             </div>
             <div className="text-gray-700 leading-relaxed space-y-4">
-              <p>Les dotations seront à retirer dans l'un des restaurants indiqués sur le bulletin de participation, dans un délai d'un mois à compter de la date du tirage au sort.</p>
-              <p>Les gagnants devront justifier de leur identité.</p>
-              <p><strong>Passé ce délai, les dotations seront considérées comme perdues.</strong></p>
-              <p>Pour les participants mineurs, une autorisation du représentant légal sera exigée pour la remise du lot.</p>
-              <p>Les dotations ne peuvent en aucun cas être échangées contre leur valeur en espèces.</p>
-              <p>O'TACOS RÉUNION se réserve le droit de proposer un lot équivalent ou supérieur en cas de nécessité.</p>
+              <ul className="list-disc list-inside space-y-2">
+                <li>Les dotations seront à retirer dans l'un des restaurants indiqués sur le bulletin de participation, dans un délai d'un mois à compter de la date du tirage au sort.</li>
+                <li>Les gagnants devront justifier de leur identité.</li>
+                <li><strong>Passé ce délai, les dotations seront considérées comme perdues.</strong></li>
+                <li>Pour les participants mineurs, une autorisation du représentant légal sera exigée pour la remise du lot.</li>
+                <li>Les dotations ne peuvent en aucun cas être échangées contre leur valeur en espèces.</li>
+                <li>O'TACOS RÉUNION se réserve le droit de proposer un lot équivalent ou supérieur en cas de nécessité.</li>
+              </ul>
             </div>
           </section>
 
@@ -133,7 +138,8 @@ export const RulesPage = () => {
           <section>
             <h3 className="text-xl font-bold mb-4 text-orange-600">Article 7 – Données personnelles</h3>
             <div className="text-gray-700 leading-relaxed space-y-4">
-              <p>Dans le cadre du présent jeu, vos données personnelles sont collectées pour la seule finalité de l'organisation et du suivi du jeu concours. Elles ne seront utilisées à d'autres fins qu'avec votre consentement exprès.</p>
+              <p>Dans le cadre du présent jeu, vos données personnelles sont collectées pour la seule finalité de l'organisation et du suivi du jeu concours.</p>
+              <p>Elles ne seront utilisées à d'autres fins qu'avec votre consentement exprès.</p>
               <p>Conformément à la réglementation en vigueur, chaque participant dispose d'un droit :</p>
               <ul className="list-disc list-inside space-y-1 ml-4">
                 <li>d'information, d'accès et de portabilité,</li>
